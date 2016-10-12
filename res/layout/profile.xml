@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg26"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="Vote Now" />
+
+    <TextView
+        android:id="@+id/TextView5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/TextView4"
+        android:layout_alignRight="@+id/TextView1"
+        android:layout_centerVertical="true"
+        android:text="STATUS:" />
+
+    <TextView
+        android:id="@+id/TextView1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/TextView2"
+        android:text="ID:" />
+
+    <TextView
+        android:id="@+id/TextView2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/TextView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="NAME:" />
+
+    <TextView
+        android:id="@+id/TextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_above="@+id/TextView5"
+        android:layout_alignLeft="@+id/TextView3"
+        android:layout_alignRight="@+id/TextView3"
+        android:layout_marginBottom="23dp"
+        android:text="GENDER:" />
+
+    <TextView
+        android:id="@+id/TextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_above="@+id/TextView4"
+        android:layout_alignLeft="@+id/TextView2"
+        android:layout_alignRight="@+id/TextView2"
+        android:layout_marginBottom="27dp"
+        android:text="AGE:" />
+
+</RelativeLayout>
